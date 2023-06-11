@@ -14,10 +14,10 @@ map.canvas.addEventListener('click',function(e){
     map.switchMultiple([squareID]);
 });
 map.randomizeMap();
-controller.addEventListener('mouseover',function(e){
+controller.addEventListener('mouseover',function(){
     controller.style.opacity = '1';
 })
-controller.addEventListener('mouseout',function(e){
+controller.addEventListener('mouseout',function(){
     controller.style.opacity = '.5';
 })
 const startButton = document.getElementById('button') as HTMLButtonElement;
